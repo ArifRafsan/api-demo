@@ -1,0 +1,131 @@
+====================================================
+HTTP requet methods
+====================================================
+CONNECT
+DELETE
+GET
+HEAD
+OPTIONS
+PATCH
+POST 
+PUT
+TRACE
+
+====================================================
+List of HTTP status codes
+====================================================
+
+-----------------1xx Informational response----------
+100 Continue
+101 Switching Protocols
+102 Processing (WebDAV; RFC 2518)
+
+-----------------2xx Success--------------------------
+200 OK
+201 Created
+202 Accepted
+203 Non-Authoritative Information (since HTTP/1.1)
+204 No Content
+205 Reset Content
+206 Partial Content
+207 Multi-Status (WebDAV; RFC 4918)
+208 Already Reported (WebDAV; RFC 5842)
+250 Low on Storage Space (RTSP; RFC 2326)
+226 IM Used (RFC 3229)
+
+----------------3xx Redirection-------------------------
+300 Multiple Choices
+301 Moved Permanently
+302 Found
+303 See Other (since HTTP/1.1)
+304 Not Modified
+305 Use Proxy (since HTTP/1.1)
+306 Switch Proxy
+307 Temporary Redirect (since HTTP/1.1)
+308 Permanent Redirect (approved as experimental RFC)[13]
+
+-----------------4xx Client errors------------------------
+400 Bad Request
+401 Unauthorized
+402 Payment Required
+403 Forbidden
+404 Not Found
+405 Method Not Allowed
+406 Not Acceptable
+407 Proxy Authentication Required
+408 Request Timeout
+409 Conflict
+410 Gone
+411 Length Required
+412 Precondition Failed
+413 Request Entity Too Large
+414 Request-URI Too Long
+415 Unsupported Media Type
+416 Requested Range Not Satisfiable
+417 Expectation Failed
+418 I'm a teapot (RFC 2324)
+420 Enhance Your Calm (Twitter)
+422 Unprocessable Entity (WebDAV; RFC 4918)
+423 Locked (WebDAV; RFC 4918)
+424 Failed Dependency (WebDAV; RFC 4918)
+424 Method Failure (WebDAV)[15]
+425 Unordered Collection (Internet draft)
+426 Upgrade Required (RFC 2817)
+427 Unassigned
+428 Precondition Required (RFC 6585)
+429 Too Many Requests (RFC 6585)
+431 Request Header Fields Too Large (RFC 6585)
+440 Login Time-out (Microsoft)
+444 No Response (Nginx)
+449 Retry With (Microsoft)
+450 Blocked by Windows Parental Controls (Microsoft)
+451 Parameter Not Understood (RTSP)
+451 Unavailable For Legal Reasons (Internet draft)
+451 Redirect (Microsoft)
+452 Conference Not Found (RTSP)
+453 Not Enough Bandwidth (RTSP)
+454 Session Not Found (RTSP)
+455 Method Not Valid in This State (RTSP)
+456 Header Field Not Valid for Resource (RTSP)
+457 Invalid Range (RTSP)
+458 Parameter Is Read-Only (RTSP)
+459 Aggregate Operation Not Allowed (RTSP)
+460 Only Aggregate Operation Allowed (RTSP)
+461 Unsupported Transport (RTSP)
+462 Destination Unreachable (RTSP)
+494 Request Header Too Large (Nginx)
+495 SSL Certificate Error (Nginx)
+496 SSL Certificate Required (Nginx)
+497 HTTP Request Sent to HTTPS Port (Nginx)
+499 Client Closed Request (Nginx)
+
+-----------------5xx Server errors----------------------
+500 Internal Server Error (Server errors)
+501 Not Implemented (Server errors)
+502 Bad Gateway (Server errors)
+503 Service Unavailable (Server errors)
+504 Gateway Timeout (Server errors)
+505 HTTP Version Not Supported (Server errors)
+506 Variant Also Negotiates (RFC 2295) (Server errors)
+507 Insufficient Storage (WebDAV; RFC 4918) (Server errors)
+508 Loop Detected (WebDAV; RFC 5842) (Server errors)
+509 Bandwidth Limit Exceeded (Apache bw/limited extension)
+510 Not Extended (RFC 2774) (Server errors)
+511 Network Authentication Required (Server errors)
+520 Web Server Returned an Unknown Error (Cloudflare)
+521 Web Server Is Down (Cloudflare)
+522 Connection Timed Out (Cloudflare)
+523 Origin Is Unreachable (Cloudflare)
+524 A Timeout Occurred (Cloudflare)
+525 SSL Handshake Failed (Cloudflare)
+526 Invalid SSL Certificate (Cloudflare)
+527 Railgun Error (Cloudflare)
+529 Site is overloaded
+530 Site is frozen
+551 Option not supported (RTSP)
+598 Network read timeout error (Unknown)
+599 Network connect timeout error (Unknown)
+
+
+Ref: 1.https://www.wikipedia.org/
+     2.https://developer.mozilla.org/
